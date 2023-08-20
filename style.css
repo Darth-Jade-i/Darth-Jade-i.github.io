@@ -410,7 +410,7 @@ a[href] {
 }
 
 /* Reset some default styles */
-video {
+iframe {
     margin: 0;
     padding: 0;
     border: none;
@@ -432,7 +432,7 @@ video {
     content: "what i have done";
 }
 .elevator .title::after {
-    content: "me in 60secs";
+    content: "me in 120 secs";
 }
 
 .video-wrapper {
@@ -445,7 +445,7 @@ video {
     overflow: hidden;
 }
 
-video {
+iframe {
     /* Position the video absolutely within the wrapper */
     position: absolute;
     top: 0;
